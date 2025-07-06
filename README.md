@@ -24,7 +24,9 @@ It covers **default WordPress endpoints** + **custom and developer mistakes**.
 Use this wordlist with common fuzzing and enumeration tools like:
 
 ### 🔸 FFUF
-
+```
+ffuf -w wp-specter-scanlist.txt -u http://example.com/FUZZ -mc 200,204,301,302
+```
 🔸 Dirsearch
 ```
 dirsearch -u http://example.com -w wp-specter-scanlist.txt -e php,txt,json,zip
@@ -33,10 +35,6 @@ dirsearch -u http://example.com -w wp-specter-scanlist.txt -e php,txt,json,zip
 🔸 Gobuster
 ```
 gobuster dir -u http://example.com -w wp-specter-scanlist.txt -x php,txt,json -t 40
-```
-FFUF
-```
-ffuf -w wp-specter-scanlist.txt -u http://example.com/FUZZ -mc 200,204,301,302
 ```
 📁 Categories Included
 
