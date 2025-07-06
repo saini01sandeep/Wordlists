@@ -61,6 +61,9 @@ WAF bypass variants
 Encoded or obfuscated paths
 #
 🔗 Related Tools
+#
 wpscan – WordPress vulnerability scanner
+#
 ffuf – Fast web fuzzer
+#
 dirsearch
