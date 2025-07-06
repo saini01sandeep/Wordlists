@@ -1,4 +1,3 @@
-# Core Sensitive Files
 wp-config.php
 wp-config.php.bak
 wp-config.php.save
@@ -13,8 +12,6 @@ wp-settings.php
 xmlrpc.php
 readme.html
 license.txt
-
-# Login & Registration Pages
 wp-login.php
 wp-register.php
 register.php
@@ -31,8 +28,6 @@ user-signup/
 create-account/
 new-user/
 join/
-
-# Forced or Custom Registration Pages
 wp-json/wp/v2/users/register
 wp-json/custom-api/register
 wp-json/wp/v2/register
@@ -47,8 +42,6 @@ auth/register
 auth/signup
 ajax/register
 ajax/signup
-
-# Common JSON Files (API leaks or configs)
 wp-json/
 wp-json/wp/v2/users
 wp-json/wp/v2/posts
@@ -62,8 +55,6 @@ credentials.json
 secrets.json
 env.json
 db.json
-
-# Uploads & Exposed Data
 wp-content/uploads/
 uploads/
 wp-content/uploads/.git/
@@ -71,8 +62,6 @@ uploads/db.sql
 uploads/wp-config.php
 uploads/debug.log
 uploads/.env
-
-# Common Backup / Log Files
 backup.zip
 backup.tar.gz
 db.sql
@@ -85,8 +74,6 @@ logs/
 error_log
 debug.log
 access.log
-
-# Miscellaneous Files for Enumeration
 phpinfo.php
 test.php
 info.php
